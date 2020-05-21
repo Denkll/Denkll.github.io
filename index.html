@@ -4,14 +4,13 @@
 	<title>Main skills</title>
   <link rel="shortcut icon" href="icoskills.ico" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
   <style type="text/css">
     html {
   margin: 0;
   padding: 0;
 }
 body {
-  font-family: 'Acme', sans-serif;
+  font-family: 'Handlee';
   font-size: 13pt;
   background-color: #efefef;
   padding: 10px;
@@ -20,6 +19,7 @@ body {
 li {
   margin-bottom: 15px;
   font-weight: bold;
+  list-style: none;
 }
 progress {
   width: 70%;
@@ -51,43 +51,12 @@ h1 {
   margin: 0 0 10px 0;
 }
 h1 span {
-  border: 4px dashed #20bcd5;
+  border: 4px solid #20bcd5;
+  border-radius: 11px;
   padding: 10px;
 }
 p.cen {
   text-align: center;
-}
-input.send{
-  background-color: #3fb6b2;
-  padding: 12px 45px;
-  border-radius: 5px;
-  cursor: pointer;
-  border: none;
-  outline: none;
-  margin: 0;
-  font-weight: bold;
-  color: #ffffff
-}
-input.send:hover {
-  background: linear-gradient(#349794, #349794, #349794);
-}
-form {
-  text-align: center;
-  margin-top: 0;
-}
-textarea {
-  height: 80%;
-}
-input, textarea {
-  margin-bottom: 10px;
-  font-size: 11pt;
-  padding: 15px 10px 10px;
-  border: 1px solid #efefef;
-  color: #787575;
-  border-radius: 5px;
-  width: 70%;
-  outline: none;
-  align-items: center;
 }
 .copyright {
   font-size: 8pt;
@@ -110,6 +79,29 @@ p {
   color: white;
   font-weight: bold;
 }
+.selected {
+  background-color: #3fb6b2;
+  font-weight: bold;
+  color: white;
+}
+table, th, td {
+  border: 2px solid #cecece;
+  border-collapse: collapse;
+  text-align: center;
+  table-layout: fixed;
+}
+table {
+  width: 100%;
+  font-size: 11pt;
+}
+.sel {
+  background-color: #FB6133;
+  color: white;
+}
+.linetable {
+  background-color: #444444;
+  color: white;
+}
 
   </style>
 </head>
@@ -118,15 +110,172 @@ p {
     MY MAIN SKILLS
   </marquee>
   <div>
-    <h1 class="namelogo"><p class="section" id="header">Denys Voloshyn</p></h1>
+    <h1 class="namelogo"><p class="section" id="header">Self Development</p></h1>
   </div>
   <div class="section">
-    <h1><span>About me!</span></h1>
-    <p class="cen">I'm Denys, i'm interesting all it.</p>
-  </div>
-  <div class="section">
-    <h1><span>Rules</span></h1>
-    <p class="cen">Work on the technique of <strong>Pomodoro</strong> and after every 25 minutes increase bu 1 point what I was doing. I start 12.05.2020.</p>
+    <h1><span>My Plan</span></h1>
+    <table>
+      <tr>
+        <th class="linetable">To Do</th>
+        <th class="linetable">Mon</th>
+        <th class="linetable">Tue</th>
+        <th class="linetable">Wed</th>
+        <th class="linetable">Thu</th>
+        <th class="linetable">Fri</th>
+        <th class="linetable">Sat</th>
+        <th class="linetable">Sun</th>
+      </tr>
+      <tr>
+        <td class="sel">Read</td><!--To Do-->
+        <td class="selected"></td><!--Mon-->
+        <td class="selected"></td><!--Tue-->
+        <td class="selected"></td><!--Wed-->
+        <td class="selected"></td><!--Thu-->
+        <td class="selected"></td><!--Fri-->
+        <td class="selected"></td><!--Sat-->
+        <td class="selected"></td><!--Sun-->
+      </tr>
+      <tr>
+        <td class="sel">Trading</td><!--To Do-->
+        <td class="selected"></td><!--Mon-->
+        <td class="selected"></td><!--Tue-->
+        <td class="selected"></td><!--Wed-->
+        <td class="selected"></td><!--Thu-->
+        <td class="selected"></td><!--Fri-->
+        <td class="selected"></td><!--Sat-->
+        <td class="selected"></td><!--Sun-->
+      </tr>
+      <tr>
+        <td class="sel">Sport</td><!--To Do-->
+        <td class="selected"></td><!--Mon-->
+        <td class="selected"></td><!--Tue-->
+        <td></td><!--Wed-->
+        <td class="selected"></td><!--Thu-->
+        <td class="selected"></td><!--Fri-->
+        <td></td><!--Sat-->
+        <td></td><!--Sun-->
+      </tr>
+      <tr>
+        <td class="sel">Sales</td><!--To Do-->
+        <td></td><!--Mon-->
+        <td></td><!--Tue-->
+        <td class="selected"></td><!--Wed-->
+        <td></td><!--Thu-->
+        <td class="selected"></td><!--Fri-->
+        <td class="selected"></td><!--Sat-->
+        <td></td><!--Sun-->
+      </tr>
+      <tr>
+        <td class="sel">Podcasts</td><!--To Do-->
+        <td class="selected"></td><!--Mon-->
+        <td class="selected"></td><!--Tue-->
+        <td class="selected"></td><!--Wed-->
+        <td class="selected"></td><!--Thu-->
+        <td class="selected"></td><!--Fri-->
+        <td class="selected"></td><!--Sat-->
+        <td class="selected"></td><!--Sun-->
+      </tr>
+      <tr>
+        <td class="sel">Photo&video</td><!--To Do-->
+        <td class="selected"></td><!--Mon-->
+        <td class="selected"></td><!--Tue-->
+        <td class="selected"></td><!--Wed-->
+        <td class="selected"></td><!--Thu-->
+        <td class="selected"></td><!--Fri-->
+        <td></td><!--Sat-->
+        <td></td><!--Sun-->
+      </tr>
+      <tr>
+        <td class="sel">English</td><!--To Do-->
+        <td class="selected"></td><!--Mon-->
+        <td class="selected"></td><!--Tue-->
+        <td class="selected"></td><!--Wed-->
+        <td class="selected"></td><!--Thu-->
+        <td class="selected"></td><!--Fri-->
+        <td></td><!--Sat-->
+        <td></td><!--Sun-->
+      </tr>
+      <tr>
+        <td class="sel">Audiobook</td><!--To Do-->
+        <td class="selected"></td><!--Mon-->
+        <td class="selected"></td><!--Tue-->
+        <td class="selected"></td><!--Wed-->
+        <td class="selected"></td><!--Thu-->
+        <td class="selected"></td><!--Fri-->
+        <td class="selected"></td><!--Sat-->
+        <td class="selected"></td><!--Sun-->
+      </tr>
+      <tr>
+        <td class="sel">Communication</td><!--To Do-->
+        <td class="selected"></td><!--Mon-->
+        <td class="selected"></td><!--Tue-->
+        <td></td><!--Wed-->
+        <td class="selected"></td><!--Thu-->
+        <td class="selected"></td><!--Fri-->
+        <td></td><!--Sat-->
+        <td></td><!--Sun-->
+      </tr>
+      <tr>
+        <td class="sel">Finance</td><!--To Do-->
+        <td></td><!--Mon-->
+        <td class="selected"></td><!--Tue-->
+        <td class="selected"></td><!--Wed-->
+        <td class="selected"></td><!--Thu-->
+        <td></td><!--Fri-->
+        <td></td><!--Sat-->
+        <td></td><!--Sun-->
+      </tr>
+      <tr>
+        <td class="sel">Self development</td><!--To Do-->
+        <td class="selected"></td><!--Mon-->
+        <td class="selected"></td><!--Tue-->
+        <td class="selected"></td><!--Wed-->
+        <td class="selected"></td><!--Thu-->
+        <td class="selected"></td><!--Fri-->
+        <td class="selected"></td><!--Sat-->
+        <td class="selected"></td><!--Sun-->
+      </tr>
+      <tr>
+        <td class="sel">Programming</td><!--To Do-->
+        <td class="selected"></td><!--Mon-->
+        <td class="selected"></td><!--Tue-->
+        <td></td><!--Wed-->
+        <td class="selected"></td><!--Thu-->
+        <td class="selected"></td><!--Fri-->
+        <td></td><!--Sat-->
+        <td></td><!--Sun-->
+      </tr>
+      <tr>
+        <td class="sel">Video editing</td><!--To Do-->
+        <td class="selected"></td><!--Mon-->
+        <td class="selected"></td><!--Tue-->
+        <td class="selected"></td><!--Wed-->
+        <td class="selected"></td><!--Thu-->
+        <td class="selected"></td><!--Fri-->
+        <td></td><!--Sat-->
+        <td></td><!--Sun-->
+      </tr>
+      <tr>
+        <td class="sel">Math</td><!--To Do-->
+        <td></td><!--Mon-->
+        <td class="selected"></td><!--Tue-->
+        <td class="selected"></td><!--Wed-->
+        <td class="selected"></td><!--Thu-->
+        <td></td><!--Fri-->
+        <td></td><!--Sat-->
+        <td></td><!--Sun-->
+      </tr>
+      <tr>
+        <td class="sel">Meditation</td><!--To Do-->
+        <td class="selected"></td><!--Mon-->
+        <td class="selected"></td><!--Tue-->
+        <td class="selected"></td><!--Wed-->
+        <td class="selected"></td><!--Thu-->
+        <td class="selected"></td><!--Fri-->
+        <td class="selected"></td><!--Sat-->
+        <td class="selected"></td><!--Sun-->
+      </tr>
+    </table>
   </div>
   <div class="section">
     <h1><span>My Skills</span></h1>
@@ -160,15 +309,8 @@ p {
       <li>Math<br>
       <progress value="0" min="0" max="300"></li>
       <li>Meditation</li>
-      <p>I was in meditation<i> 3 </i>minutes!</p>
+      <p>I was in meditation<b> 3 </b>minutes!</p>
     </ul>
-  </div>
-  <div class="section">
-    <h1><span>Ask me</span></h1>
-    <textarea placeholder="Massage..."></textarea>
-    <form>
-      <input class="send" type="submit" value="Send">
-    </form>
   </div>
   <div class="copyright">Denys Voloshyn</div>
 </body>
